@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		182262F02455536300CE652F /* InputContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182262EF2455536300CE652F /* InputContainerView.swift */; };
+		182262F22455592100CE652F /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182262F12455592100CE652F /* CustomTextField.swift */; };
 		18E910532423D10C00AA5895 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E910522423D10C00AA5895 /* AppDelegate.swift */; };
 		18E910552423D10C00AA5895 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E910542423D10C00AA5895 /* SceneDelegate.swift */; };
 		18E910572423D10C00AA5895 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E910562423D10C00AA5895 /* ViewController.swift */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		182262EF2455536300CE652F /* InputContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputContainerView.swift; sourceTree = "<group>"; };
+		182262F12455592100CE652F /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		18E9104F2423D10C00AA5895 /* FireChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FireChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E910522423D10C00AA5895 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18E910542423D10C00AA5895 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -115,6 +119,8 @@
 		18E9106A2423D25500AA5895 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				182262EF2455536300CE652F /* InputContainerView.swift */,
+				182262F12455592100CE652F /* CustomTextField.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -207,12 +213,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				18E910572423D10C00AA5895 /* ViewController.swift in Sources */,
+				182262F02455536300CE652F /* InputContainerView.swift in Sources */,
 				18E910722427E00900AA5895 /* LoginController.swift in Sources */,
 				18E910532423D10C00AA5895 /* AppDelegate.swift in Sources */,
 				18E9106D2427D5DC00AA5895 /* ConversationsController.swift in Sources */,
 				18E910702427DFFB00AA5895 /* RegistrationController.swift in Sources */,
 				18E910552423D10C00AA5895 /* SceneDelegate.swift in Sources */,
 				18E910742427E58400AA5895 /* Extensions.swift in Sources */,
+				182262F22455592100CE652F /* CustomTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
